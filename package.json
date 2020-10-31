@@ -1,33 +1,49 @@
 {
-  "name": "gatsby-starter-typescript",
-  "description": "Gatsby TypeScript starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "charterz",
+  "version": "0.1.0",
+  "homepage": ".",
+  "private": true,
   "dependencies": {
-    "@types/node": "^8.0.7",
-    "@types/react": "15.0.21",
-    "@types/react-dom": "0.14.23",
-    "gatsby": "^1.9.119",
-    "gatsby-link": "^1.6.28",
-    "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-typescript": "^1.4.10"
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/axios": "^0.14.0",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.55",
+    "@types/react-dom": "^16.9.8",
+    "@types/recharts": "^1.8.16",
+    "axios": "^0.21.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-query": "^2.25.2",
+    "react-scripts": "4.0.0",
+    "recharts": "^1.8.5",
+    "typescript": "^4.0.3",
+    "web-vitals": "^0.2.4"
   },
-  "keywords": [
-    "gatsby, typescript"
-  ],
-  "license": "MIT",
-  "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --parser typescript --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.ts*\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "prettier": "^1.8.2"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "contributors": [
-    "fabien0102 <fabien0102@gmail.com>",
-    "Hays Clark <hays.clark@gmail.com>"
-  ]
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
