@@ -1,6 +1,6 @@
 # Crypto Price Chart
 
-This project was created to serve as a portfolio for my Squire application. It was intended to showcase what I have made without disclosing any confidential information of the company, as the feature I made was not released to public yet.
+This project was created to serve as a substitution for the crypto chart project. It was intended to showcase what I have made without disclosing any confidential information of the company, as the feature I made was not released to public yet.
 
 ## Design
 
