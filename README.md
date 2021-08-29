@@ -1,10 +1,6 @@
 # Crypto Price Chart
 
-This project was created to serve as a substitution for the crypto chart project. It was intended to showcase what I have made without disclosing any confidential information of the company, as the feature I made was not released to public yet.
-
-## Design
-
-The design however, is really different. In my job I was tasked to follow the mock up design exactly to pixel-perfection. Here, I have more freedom and gave it my own touch and a simpler design, playing with colours and gradients.
+A project I did just for fun. It is what you think it is. Just a boring chart showing various crypto prices in real time from a public API.
 
 ### Installation
 - git clone
